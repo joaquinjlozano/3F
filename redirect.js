@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
   res.write('</p>');
   res.write('<p>Estamos camino a dejar de usar los nombres de dominio tresdefebrero.go<strong>v</strong>.ar<p>');
   res.write('<p>Redirigiendo a ' + domain_redirect + ' en <span id="seconds">10</span> ...</p>');
-  res.write('<a href="http://' + domain_redirect + '" class="boton">Ir ahora</a>');
+  res.write('<a id="link_redirect" href="http://' + domain_redirect + '" class="boton">Ir ahora</a>');
   res.write('</div>');
   res.write('<div class="imagen">');
   res.write('<img src="3f.png" alt="Imagen relevante">');

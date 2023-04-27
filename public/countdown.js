@@ -6,7 +6,7 @@ function countdown() {
 	if (timeLeft > 0) {
 		setTimeout(countdown, 1000);
 	}else{
-        window.location.replace("http://www.w3schools.com");
+        window.location.replace(document.getElementById('link_redirect').href);
     }
 };
 
