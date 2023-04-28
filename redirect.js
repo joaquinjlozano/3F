@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   res.write('<h1>¡Atención!</h1>');
   res.write('<p>');
   //res.write(JSON.stringify(req.headers));
-  res.write(domain_redirect);
+  res.write(domain_original);
   res.write('</p>');
   res.write('<p>Estamos camino a dejar de usar los nombres de dominio tresdefebrero.go<strong>v</strong>.ar<p>');
   res.write('<p>Redirigiendo a ' + domain_redirect + ' en <span id="seconds">10</span> ...</p>');
